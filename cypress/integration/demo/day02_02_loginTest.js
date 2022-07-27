@@ -16,10 +16,10 @@ describe("Login ",()=>{
 
     cy.get('.login-form > form > p').should("be.visible");
     cy.get('.login-form > form > p').should("have.text","Your email or password is incorrect!");
-    
-
-
   })
+
+
+  
   it("Test pozitif",()=>{
  
    cy.visit(url);
@@ -28,11 +28,6 @@ describe("Login ",()=>{
     cy.get('[type="password"]').type(psw1);
     cy.get('.login-form > form > .btn').click();
     cy.get(':nth-child(10) > a').should("be.visible");
-   
-
-    
-
-
   })
 
 
