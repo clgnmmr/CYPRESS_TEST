@@ -17,12 +17,16 @@ cy.visit(url);
 
   cy.get('#btnSubmit').click();
 
+  
+
+
   cy.url().should("include","UserAdmin");
 
    
 
 
     })
+    
 
 
 

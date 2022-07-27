@@ -37,6 +37,7 @@ describe("Navigation",()=>{
         cy.reload(true).contains("Log in").should("be.visible");
 
      })
+     
 
 
 
